@@ -1,4 +1,4 @@
-syntax on
+:syntax on
 
 set noerrorbells
 set tabstop=4 softtabstop=4
@@ -56,7 +56,7 @@ nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-clangd']
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-clangd', 'coc-python', 'coc-snippets', 'coc-vimlsp', 'coc-tsserver']
 
 hi clear CursorLine
 hi CursorLine gui=underline cterm=underline
