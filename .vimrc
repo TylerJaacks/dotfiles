@@ -10,7 +10,7 @@ set autoindent
 set ruler
 set number
 set cursorline
-set nowrap
+" set nowrap
 set smartcase
 set noswapfile
 set nobackup
@@ -56,7 +56,7 @@ nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-clangd', 'coc-python', 'coc-snippets', 'coc-vimlsp', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-clangd', 'coc-python', 'coc-snippets', 'coc-vimlsp', 'coc-tsserver', 'coc-pyright', 'coc-yaml', 'coc-browser', 'coc-calc', 'coc-clang-format-style-options', 'coc-cmake', 'coc-docker', 'coc-git',  'coc-go', 'coc-highlight', 'coc-html', 'coc-java', 'coc-omnisharp', 'coc-rls', 'coc-texlab']
 
 hi clear CursorLine
 hi CursorLine gui=underline cterm=underline
